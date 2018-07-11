@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr" />
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <title>Exercice2</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="assets/JS/script.js"></script>
   </head>
-  <body np-app>
-  <input ng-click ="test()" type="button" name="alert" value="Alert!">
+  <body ng-app="myApp" ng-controller="myController">
+    <button ng-click="DisplayAlert()">Alert</button>
   </body>
 </html>
